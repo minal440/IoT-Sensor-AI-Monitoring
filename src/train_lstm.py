@@ -90,3 +90,6 @@ pickle.dump(tokenizer, open("../models/tokenizer.pkl", "wb"))
 pickle.dump(encoder, open("../models/encoder.pkl", "wb"))
 
 print("\nModel and tokenizer saved successfully.")
+
+plt.savefig("D:/IoT_Project/images/confusion_matrix.png")
+plt.savefig("D:/IoT_Project/images/accuracy_plot.png")
