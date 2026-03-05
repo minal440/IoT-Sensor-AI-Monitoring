@@ -1,45 +1,45 @@
-# IoT Sensor AI Monitoring System
+## Project Overview
 
-This project implements a Deep Learning based system for automatically classifying IoT sensor alerts.
+This project implements a Deep Learning based IoT monitoring system that classifies sensor alert messages.
 
-The system analyzes sensor messages and predicts the type of alert such as battery issues, security alerts, temperature warnings, or device faults.
+The system uses an LSTM neural network to analyze sensor messages and categorize them into:
 
-## Features
+• Battery Issues
+• Security Alerts
+• Temperature Warnings
+• Device Faults
 
-- Deep Learning model using LSTM
-- Text preprocessing with Tokenizer
-- Interactive Streamlit dashboard
-- Real-time alert classification
-- Confidence score prediction
+A Streamlit dashboard allows users to input sensor messages and receive real-time predictions with confidence scores.
 
-## Technologies
+---
+
+## Technologies Used
 
 Python  
 TensorFlow / Keras  
 Scikit-learn  
 Streamlit  
 Pandas  
+Matplotlib  
 
-## Project Structure
+---
 
-datasets - dataset files  
-src - training and prediction code  
-models - trained models  
-app - deployment dashboard  
+## Example Predictions
+
+Input: battery critically low  
+Prediction: Battery  
+
+Input: motion detected near door  
+Prediction: Security  
+
+Input: temperature sensor overheating  
+Prediction: Temperature  
+
+---
 
 ## Applications
 
-Industrial IoT monitoring  
-Smart factory alerts  
-Predictive maintenance  
-Device health monitoring
-
-## How to Run
-
-Train model
-
-python src/train_lstm.py
-
-Run dashboard
-
-streamlit run app.py
+• Smart factory monitoring  
+• IoT device health monitoring  
+• Industrial alert classification  
+• Predictive maintenance systems
