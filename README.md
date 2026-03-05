@@ -43,3 +43,17 @@ Prediction: Temperature
 • IoT device health monitoring  
 • Industrial alert classification  
 • Predictive maintenance systems
+
+## Dashboard Demo
+
+![Dashboard Demo](images/Dashboard.png)
+
+## Model Evaluation
+
+### Accuracy Curve
+
+![Accuracy](images/accuracy_plot.png)
+
+### Confusion Matrix
+
+![Confusion](images/confusion_matrix.png)
