@@ -1,0 +1,33 @@
+message,category
+battery level low warning,Battery
+battery critically low,Battery
+battery replacement needed,Battery
+battery voltage drop,Battery
+power supply unstable,Battery
+battery overheating detected,Battery
+device battery drained,Battery
+battery failure warning,Battery
+motion detected in living room,Security
+motion detected at main gate,Security
+unauthorized access attempt detected,Security
+intrusion detected in warehouse,Security
+movement detected near window,Security
+suspicious activity detected,Security
+door sensor triggered,Security
+security breach alert,Security
+temperature above threshold,Temperature
+temperature sensor reading high,Temperature
+overheating detected in motor,Temperature
+cooling system failure temperature rising,Temperature
+machine temperature critical,Temperature
+temperature spike detected,Temperature
+heat sensor warning,Temperature
+high temperature alert,Temperature
+sensor failure detected,Fault
+pressure sensor malfunction,Fault
+device not responding,Fault
+system communication error,Fault
+hardware malfunction detected,Fault
+sensor calibration error,Fault
+signal loss detected,Fault
+device reboot failure,Fault
