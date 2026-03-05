@@ -46,14 +46,12 @@ Prediction: Temperature
 
 ## Dashboard Demo
 
-![Dashboard Demo](images/Dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ## Model Evaluation
 
-### Accuracy Curve
-
+### Accuracy Plot
 ![Accuracy](images/accuracy_plot.png)
 
 ### Confusion Matrix
-
-![Confusion](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
